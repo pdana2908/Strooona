@@ -1,0 +1,63 @@
+
+header{
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.title{
+    height:700px;
+    background-color: blue;
+}
+.informations{
+    height:600px;
+    background-color: grey
+}
+.quote{
+    height:200px;
+    background-color: green;
+}
+.news{
+    height:1000px;
+    background-color: white;
+}
+.footer{
+    height:100px;
+    background-color: lightblue;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+
+}
+.menu a,.icons a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.menu a {
+    display: block;
+}
+
+.icons a {
+    opacity: 0.7;
+}
+.icons{
+    flex-shrink: 0;
+}
+
+i{
+    font-size:50px;
+}
+.only_for_color{
+    background: #e5e5e5;
+}
